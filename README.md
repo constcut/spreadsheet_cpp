@@ -5,7 +5,7 @@ Spreadsheet engine with formulas parser and evaluator.
 
 Uses ANTRL for building abstract syntax tree.
 
-Russian version of task [Task details](info/task.pdf)
+Russian version of task: [details](info/task.pdf)
 
 My code is a little faster, and consumes less memory than course author's work.
 
@@ -33,5 +33,5 @@ mkdir build && cd build
 cmake .. -Wno-dev -DCMAKE_BUILD_TYPE=Debug -G Ninja -DWITH_LIBCXX=Off 
 
 ninja
-'''
+```
 
