@@ -21,14 +21,17 @@ Authors:
 
 To instul on Debian & Ubuntu
 
-'''
+```
 sudo apt-get install cmake ninja-build pkgconf uuid-dev
-'''
+```
 
 From src directory:
 
-'''
+```
 mkdir build && cd build
-'''
 
 cmake .. -Wno-dev -DCMAKE_BUILD_TYPE=Debug -G Ninja -DWITH_LIBCXX=Off 
+
+ninja
+'''
+
